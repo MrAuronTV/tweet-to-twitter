@@ -19,7 +19,10 @@ client = tweepy.Client(
 )
 
 # Upload image to Twitter. Replace 'filename' with your image filename.
+# if you doesn't want to tweet with image, mute this line below
 media_id = api.media_upload(filename="file.jpg").media_id_string
 
 #TWEET
+# if you doesn't want to tweet with image, use this line below
+#response = client.create_tweet(text="text to twitter")
 response = client.create_tweet(text="text to twitter",  media_ids=[media_id])
