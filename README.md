@@ -1,4 +1,4 @@
-# Twitch-clip-to-discord
+# tweet-to-twitter
 
 Script python qui permet de tweeter sur X (Twitter) - Version Gratuite
 
